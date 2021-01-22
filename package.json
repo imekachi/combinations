@@ -7,14 +7,22 @@
   "exports": "dist/index.modern.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
-  "repository": "https://github.com/imekachi/combinations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imekachi/combinations.git"
+  },
   "author": "Saran Weerakun",
   "license": "MIT",
-  "private": false,
+  "bugs": {
+    "url": "https://github.com/imekachi/combinations/issues"
+  },
+  "homepage": "https://github.com/imekachi/combinations#readme",
+  "keywords": ["combinations", "combine"],
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
