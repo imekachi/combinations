@@ -1,0 +1,26 @@
+{
+  "name": "@imekachi/combinations",
+  "version": "1.0.0",
+  "description": "Generate all possible combinations of variant array which contains options array.",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "exports": "dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "repository": "https://github.com/imekachi/combinations",
+  "author": "Saran Weerakun",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "microbundle": "^0.13.0"
+  }
+}
