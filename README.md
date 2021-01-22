@@ -37,7 +37,7 @@ console.log(`variants: `, variants)
 //   ['blue', 'L'],
 // ]
 ```
-If you store variant in object you can do it like this
+If you store options in an object, you can do it like this
 ```javascript
 import combinations from '@imekachi/combinations'
 
@@ -48,7 +48,7 @@ const shirtOptionObj = {
 
 const variants = combinations(Object.values(shirtOptionObj))
 ```
-Or in Array but stores options in object
+Or option object within an array
 ```javascript
 import combinations from '@imekachi/combinations'
 
