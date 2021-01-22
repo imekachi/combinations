@@ -1,6 +1,9 @@
 # Combinations
 Generate all possible combinations of variant array which contains options array.
 
+[![NPM Version][npm-image]][npm-url]
+[![Codecov Status][codecov-image]][codecov-url]
+
 ## Installation
 Using npm:
 
@@ -73,3 +76,8 @@ Feel free to submit any issues or pull requests.
 
 ## License
 MIT
+
+[npm-image]: https://img.shields.io/npm/v/@imekachi/combinations.svg
+[npm-url]: https://npmjs.org/package/@imekachi/combinations
+[codecov-image]: https://codecov.io/gh/imekachi/combinations/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/imekachi/combinations/branch/master
