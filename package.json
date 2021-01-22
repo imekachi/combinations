@@ -1,6 +1,6 @@
 {
   "name": "@imekachi/combinations",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate all possible combinations of variant array which contains options array.",
   "source": "src/index.ts",
   "main": "dist/index.js",
