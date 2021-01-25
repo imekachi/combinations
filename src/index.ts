@@ -12,14 +12,14 @@ export default function combinations(variantArr: any[][]) {
   // - size: S, M, L
   // We're gonna find out all possible combinations of our shirts
   //
-  let buffer = []
+  let buffer: any[] = []
 
   // Main loop, loop through each optionArr
   variantArr.forEach((optionArr) => {
     if (!buffer.length) {
       buffer = optionArr.map((item) => [item])
     } else {
-      const newBuffer = []
+      const newBuffer: any[] = []
 
       buffer.forEach((bufferItem) => {
         optionArr.forEach((item) => {
